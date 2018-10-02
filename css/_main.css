@@ -1,0 +1,316 @@
+.container {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+.slick {
+	max-width: 100%;
+}
+.slick-prev {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	opacity: 0.8;
+    position: absolute;
+    z-index: 100;
+    left: 20px;
+    top: 39%;
+    font-size: 0;
+    border: none;
+    background-color: #CFA4D2;
+    cursor: pointer;
+}
+.slick-next {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	opacity: 0.8;
+    position: absolute;
+    z-index: 100;
+    right: 20px;
+    top: 39%;
+    font-size: 0;
+    border: none;
+    background-color: #CFA4D2;
+    cursor: pointer;
+}
+.slick-prev:before {
+	font-family: FontAwesome;
+    content: '<';
+    display: inline-block;
+    font-size: 15px;
+}
+.slick-next:before {
+	font-family: FontAwesome;
+    content: '>';
+    display: inline-block;
+    font-size: 15px;
+}
+.slick-prev:focus {
+	outline: none
+}
+.slick-next:focus {
+	outline: none
+}
+.home {
+	float: left;
+	width: 18%;
+	text-transform: uppercase;
+	color: #311F4C;
+}
+	.home__title {
+		line-height: 60px;
+		background-color: #CFA4D2;
+		font-size: 24px;
+		text-align: center;
+	}
+	.home__nav {
+		border: 1px solid #311F4C;
+		border-top: none;
+		text-align: center;
+		height: 600px;
+	}
+	.home__nav a {
+		width: 100%;
+		line-height: 60px;
+		display: inline-block;
+	}
+	.home__nav a:hover {
+		background-color: #311F4C;
+		color: #CFA4D2;
+	}
+.main {
+	float: right;
+	width: 82%;
+	position: relative;
+}
+	.main li {
+		display: inline-block;
+	}
+	.main__header {
+		width: 100%;
+		height: 60px;
+		line-height: 60px;
+		text-transform: uppercase;
+		background-color: #CFA4D2;
+		font-size: 24px;
+		overflow: hidden;
+	}
+	.main__header a {
+		line-height: 60px;
+		padding: 0 50px;
+		display: inline-block;
+	}
+	.main__header a:hover {
+		background-color: #311F4C;
+		color: #CFA4D2;
+	}
+	.main__nav-left {
+		float: left;
+	}
+	.main__nav-right {
+		float: right;
+	}
+	.main__list {
+		width: 100%;
+		background-color: #ACDFDA;
+		line-height: 50px;
+		text-align: center;
+	}
+	.main__list a {
+		padding: 0 30px;
+	}
+	.main__list a:hover {
+		color: #CFA4D2;
+	}
+	.main__my-profile {
+		width: 70%;
+		display: inline-block;
+		padding-left: 20px;
+	}
+	.main__tabs {
+		width: 100%;
+		height: 600px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+	.main__tabs ul {
+		background-color: #EDB8DD;
+	}
+	.main__tabs li {
+		width: 24.4%;
+		text-align: center;
+	}
+	.main__tabs ul a {
+		display: inline-block;
+		line-height: 50px;
+		font-size: 24px;
+		width: 100%;
+		-webkit-transition: background-color 1s ease; 
+		-moz-transition: background-color 1s ease; 
+		-ms-transition: background-color 1s ease; 
+		-o-transition: background-color 1s ease; 
+		transition: background-color 1s ease;
+	}
+	.main__tabs ul a:hover {
+		background-color: #CFA4D2;
+	}
+	.main__home {
+		height: 300px;
+		padding: 15px;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background: url("../images/flowers.jpg");
+	}
+	.main__home-info {
+		float: left;
+	}
+	.main__home-info a {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.main__home-photo {
+		width: 200px;
+		height: 286px;
+		background-size: cover;
+		float: right;
+		background: url("../images/user.jpg");
+	}
+	.main__edit input {
+		width: 270px;
+		line-height: 35px;
+		margin-bottom: 10px;
+		padding-left: 10px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+	.main__edit-form {
+		padding: 15px;
+		height: 300px;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background: url("../images/flowers2.jpg");
+	}
+	.main__edit-field {
+		float: left;
+	}
+	.main__edit-uploadphoto {
+		float: right;
+	}
+	.main__edit-img {
+		width: 200px;
+		height: 214px;
+		background: url("../images/default.png");
+	}
+	.main__edit-uploadphoto button {
+		width: 140px;
+		line-height: 40px;
+		border: none;
+		margin-left: 30px;
+		margin-top: 10px;
+		font-size: 18px;
+		font-weight: bold;
+		color: #311F4C;
+		font-weight: bold;
+		background-color: #CFA4D2;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		cursor: pointer;
+		border: 2px solid #311F4C;
+		-webkit-transition: background-color 1s ease; 
+		-moz-transition: background-color 1s ease; 
+		-ms-transition: background-color 1s ease; 
+		-o-transition: background-color 1s ease; 
+		transition: background-color 1s ease; 
+		-webkit-transition: color 1s ease; 
+		-moz-transition: color 1s ease; 
+		-ms-transition: color 1s ease; 
+		-o-transition: color 1s ease; 
+		transition: color 1s ease;
+		-webkit-transition: border 1s ease; 
+		-moz-transition: border 1s ease; 
+		-ms-transition: border 1s ease; 
+		-o-transition: border 1s ease; 
+		transition: border 1s ease;
+	}
+	.main__edit-uploadphoto button:hover {
+		color: #CFA4D2;
+		background-color: #311F4C;
+		border: 2px solid #CFA4D2;
+	}
+	.main__about-img {
+		width: 650px;
+		height: 325px;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.main__contact {
+		height: 300px;
+		padding: 15px;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background: url("../images/flowers4.jpg");
+	}
+	@media screen and (max-width: 1024px) {
+		.main__header a {
+			padding: 0 20px;
+		}
+		.main__my-profile {
+			width: 100%;
+			padding-right: 20px;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		.home__title {
+			font-size: 20px;
+		}
+		.home__nav {
+			height: 540px;
+		}
+		.home__nav a {
+			line-height: 40px;
+			font-size: 18px;
+		}
+		.main__header a {
+			padding: 0 10px;
+			font-size: 20px;
+		}
+		.main__tabs li {
+			width: 22%;
+		}
+		.main__home-info {
+			float: none;
+		}
+		.main__home-info a {
+			font-size: 20px;
+			line-height: 24px;
+		}
+		.main__home-photo {
+			margin-top: 5px;
+			width: 140px;
+			height: 190px;
+			background-size: cover;
+			float: none;
+			background: url("../images/user2.jpg");
+		}
+		.main__edit-img {
+			display: none;
+		}
+		.main__edit-field {
+			float: none;
+		}
+		.main__edit-uploadphoto {
+			float: none;
+		}
+		.main__edit-uploadphoto button {
+			margin-left: 0;
+		}
+	}
